@@ -1,0 +1,59 @@
+  .ReactModal__Content {
+    position: fixed;
+    top: 7%;
+    max-width: 90%;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px #0003;
+    transition: all .3s;
+    z-index: 2;
+    left: 50%;
+  }
+  
+  .close-button {
+    position: relative;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    text-align: end;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 60%;
+    padding: 3px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+  
+  button {
+    width: 100%;
+    padding: 8px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+ 

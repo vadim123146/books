@@ -1,0 +1,16 @@
+.cartWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.cartItem{
+    margin-right: 2%;
+    width: 29%;
+    text-align: center;
+}
+.btn{
+    width: 30%;
+    }
+.end{
+    text-align: end;
+}    
